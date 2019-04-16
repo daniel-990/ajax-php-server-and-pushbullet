@@ -4,7 +4,7 @@ export const functionData = {
     "serverurl":{
         url:"./server/send.php",
         urledit:"./server/editardatos.php",
-        urlviews:"./server/received.php"
+        urlviews:"./server/recibirdatos.php"
     },
     "inputs":{
         nombreblog:$("#nombre-blog"),
