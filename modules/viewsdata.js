@@ -11,17 +11,17 @@ export const viewsForm = () => {
         .then(function (data) {
             data.map((items) => {
                 let htmlcard = `
-                <div class="card" style="margin-top:10px;">
+                <div class="card tarjetas-de-datos" style="margin-top:10px;">
                     <h5 class="card-header">${items.nombreblog}</h5>
                     <div class="card-body">
                         <h5 class="card-title">Autor: ${items.autorblog}</h5>
                         <p class="card-text">
                             ${items.notasblog}
                         </p>
-                        <a class="btn btn-success" href="${items.linkblog}" target="post_">
-                            <i class="fas fa-external-link-alt"></i> | Ver Link
+                        <a class="btn btn-success btn-link-fondo" href="${items.linkblog}" target="post_">
+                            <i class="fas fa-link"></i> | Link
                         </a>
-                        <a id="editar-post" class="btn btn-danger" href="/editar.php?${items.id}">
+                        <a id="editar-post" class="btn btn-danger btn-editar-fondo" href="/php-text/editar.php?${items.id}">
                             <i class="fas fa-pencil-alt"></i> | Editar
                         </a>
                     </div>

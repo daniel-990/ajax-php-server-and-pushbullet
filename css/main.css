@@ -1,0 +1,51 @@
+.cont-form {
+    margin-top: 50px;
+}
+
+.btn-enviar-fondo{
+    background-color: #16bcd6;
+    border: none;
+}
+.btn-editar-fondo{
+    border: none;
+    background-color: #ff5d6d;
+}
+.btn-link-fondo{
+    background-color: #20bad2;
+    border: none;
+}
+
+.btn-editar-fondo:hover{
+    box-shadow: 0px 4px 7px 0px rgba(175, 175, 175, 0.98);
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(175, 175, 175, 0.98);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(175, 175, 175, 0.98);
+    background-color: #ff5d6d;
+}
+.btn-link-fondo:hover{
+    box-shadow: 0px 4px 7px 0px rgba(175, 175, 175, 0.98);
+    -webkit-box-shadow: 0px 4px 7px 0px rgba(175, 175, 175, 0.98);
+    -moz-box-shadow: 0px 4px 7px 0px rgba(175, 175, 175, 0.98);
+    background-color: #20bad2;
+}
+.btn-app-custom{
+    box-shadow: 5px 4px 11px 0px rgba(175, 175, 175, 0.98);
+    -webkit-box-shadow: 5px 4px 11px 0px rgba(175, 175, 175, 0.98);
+    -moz-box-shadow: 5px 4px 11px 0px rgba(175, 175, 175, 0.98);
+}
+.btn-enviar-fondo:hover{
+    background-color: #3bcae0;
+    box-shadow: 0px 1px 5px 0px rgba(130, 130, 130, 0.98);
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(130, 130, 130, 0.98);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(130, 130, 130, 0.98);
+}
+
+.tarjetas-de-datos{
+    box-shadow: 1px 4px 17px 3px rgba(187, 187, 187, 0.98);
+    -webkit-box-shadow: 1px 4px 17px 3px rgba(187, 187, 187, 0.98);
+    -moz-box-shadow: 1px 4px 17px 3px rgba(187, 187, 187, 0.98);
+}
+.tarjetas-de-datos:hover{
+    box-shadow: 0px 1px 5px 0px rgba(130, 130, 130, 0.98);
+    -webkit-box-shadow: 0px 1px 5px 0px rgba(130, 130, 130, 0.98);
+    -moz-box-shadow: 0px 1px 5px 0px rgba(130, 130, 130, 0.98);
+}
