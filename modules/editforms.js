@@ -23,6 +23,7 @@ export const editForm = () => {
 
                     const btnedit = $("#submit-edit");
                     const edidardbform = (e) => {
+                        //e.preventDefault();
                         $.ajax({
                             type: 'POST',
                             url: urledit,

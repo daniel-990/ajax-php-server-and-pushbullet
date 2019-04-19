@@ -12,6 +12,7 @@ export const form = () => {
 
     const enviarDatos = (event) => {
         //--
+        event.preventDefault();
         $.ajax({
             type: 'POST',
             url: url,
@@ -21,31 +22,28 @@ export const form = () => {
                 autor: autorblog.val(),
                 notas: notasblog.val()
             },
-            success: function (res) {
-                console.log(res);
-                $("#res-message").html(res);
+            success: function (response) {
+                console.log(response);
+
+                PushBullet.push("note", deviceID, null, {
+                    title: `Hola mi nombre es: ${autorblog.val()}`,
+                    body: `Datos nuevos: ${nombreblog.val()} | ${linkdelblog.val()} | ${autorblog.val()} | ${notasblog.val()}`,
+                }, function (err, res) {
+                    if (err) {
+                        throw err;
+                    } else {
+                        console.log(res);
+                        window.location.href = "/";
+                    }
+                });
+
+                $("#res-message").html(response);
             },
             error: function (err) {
                 alert(err);
             }
         })
 
-    }
-
-    const pushBull = () => {
-        const nombre = "Daniel";
-        const url = "www.google.com";
-        event.preventDefault();
-        PushBullet.push("note", deviceID, null, {
-            title: `Hola mi nombre es: ${nombre}`,
-            body: `Esto es una prueba para: ${url}`,
-        }, function (err, res) {
-            if (err) {
-                throw err;
-            } else {
-                console.log(res);
-            }
-        });
     }
 
     submit.on('click', enviarDatos);

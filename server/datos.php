@@ -1,8 +1,8 @@
 <?php 
 
     // $pass = $_POST['password'];    
-    $token = "o.Q7qT79TRM0VLnFYKW0sLsrs5UxPRUo5j";
-    $deviceid = "ujxE6LafSBosjz0aw36Wn6";
+    $token = "009871";
+    $deviceid = "000123";
 
     $tokennHash = password_hash($token, PASSWORD_BCRYPT);
     $idHash = password_hash($deviceid, PASSWORD_BCRYPT);
