@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="cont-form">
-                    <h3>[ Editar Blogs ] <i class="fas fa-server"></i> | <a href="/php-text" class="btn btn-danger">Inicio</a></h3>
+                    <h3>[ Editar Blogs ] <i class="fas fa-server"></i> | <a href="/" class="btn btn-danger">Inicio</a></h3>
                     <hr>
                     <form id="form-editar">
                         <div class="form-group row">
@@ -23,9 +23,9 @@
                                 </div>
                             </div>
                             <div class="form-group row">
-                                <label for="autos-blog" class="col-sm-2 col-form-label">Autor del Blog</label>
+                                <label for="autor-blog" class="col-sm-2 col-form-label">Autor del Blog</label>
                                 <div class="col-sm-10">
-                                    <input type="text" class="form-control" id="autos-blog" placeholder="autor">
+                                    <input type="text" class="form-control" id="autor-blog" placeholder="autor">
                                 </div>
                             </div>
                             <div class="form-group row">

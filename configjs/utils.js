@@ -4,12 +4,13 @@ export const functionData = {
     "serverurl":{
         url:"./server/send.php",
         urledit:"./server/editardatos.php",
-        urlviews:"./server/recibirdatos.php"
+        urlviews:"./server/recibirdatos.php",
+        urldelete:"./server/eliminar.php"
     },
     "inputs":{
         nombreblog:$("#nombre-blog"),
         linkdelblog:$("#link-blog"),
-        autorblog:$("#autos-blog"),
+        autorblog:$("#autor-blog"),
         notasblog:$("#notas-blog")
     },
     "accesstokens":{

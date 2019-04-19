@@ -23,25 +23,24 @@ export const editForm = () => {
 
                     const btnedit = $("#submit-edit");
                     const edidardbform = (e) => {
-                        e.preventDefault();
                         $.ajax({
                             type: 'POST',
                             url: urledit,
                             data:  {
                                 nombre: nombreblog.val(), 
-                                link: "linkdelblog.val()",
-                                autor: "autorblog.val()",
-                                notas: "notasblog.val()",
+                                link: linkdelblog.val(),
+                                autor: autorblog.val(),
+                                notas: notasblog.val(),
                                 id:result
                             },
                             success: function(res){
-                                console.log('enviado datos al servidor php ',res);
+                                console.log(res);
+                                window.location.href = "/";
                             },
                             error: function(err){
                                 console.log(err);
                             }
                         })
-                        console.log('enviar datos');
                     }
                     btnedit.on('click', edidardbform);
                 } else {

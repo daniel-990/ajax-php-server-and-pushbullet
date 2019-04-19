@@ -6,9 +6,9 @@
 
     <div class="container">
         <div class="row">
-            <div class="col-md-8">
+            <div class="col-md-6">
                 <div class="cont-form">
-                    <h3>[ Formulario Blogs ] <i class="fas fa-server"></i></h3>
+                    <h3>[ Micro Blogs ] <i class="fas fa-server"></i></h3>
                     <hr>
                     <form>
                         <div class="form-group row">
@@ -24,9 +24,9 @@
                             </div>
                         </div>
                         <div class="form-group row">
-                            <label for="autos-blog" class="col-sm-2 col-form-label">Autor del Blog</label>
+                            <label for="autor-blog" class="col-sm-2 col-form-label">Autor del Blog</label>
                             <div class="col-sm-10">
-                                <input type="text" class="form-control" id="autos-blog" placeholder="autor">
+                                <input type="text" class="form-control" id="autor-blog" placeholder="autor">
                             </div>
                         </div>
                         <div class="form-group row">
@@ -41,13 +41,11 @@
                     </form>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="cont-form"></div>
-            </div>
-
-            <div class="container">
-                <hr>
-                <div id="datos-html" class="cont-datos-html" style="margin-bottom:50px;"></div>
+            <div class="col-md-6">
+                <div class="cont-form">
+                    <h2>Blogs</h2>
+                    <div id="datos-html" class="cont-datos-html" style="margin-bottom:50px;"></div>
+                </div>
             </div>
         </div>
     </div>
