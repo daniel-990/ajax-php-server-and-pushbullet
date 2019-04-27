@@ -22,7 +22,7 @@ export const viewsForm = () => {
                         <a class="btn btn-success btn-link-fondo" href="${items.linkblog}" target="post_">
                             <i class="fas fa-link"></i> | Link
                         </a>
-                        <a id="editar-post" class="btn btn-danger btn-editar-fondo" href="/editar.php?${items.id}">
+                        <a id="editar-post" class="btn btn-danger btn-editar-fondo" href="/php-text/editar.php?${items.id}">
                             <i class="fas fa-pencil-alt"></i> | Editar
                         </a>
                         <a id="eliminar-post" class="btn btn-danger btn-editar-fondo eliminar" data-id="${items.id}" href="">

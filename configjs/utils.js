@@ -5,13 +5,16 @@ export const functionData = {
         url:"./server/send.php",
         urledit:"./server/editardatos.php",
         urlviews:"./server/recibirdatos.php",
-        urldelete:"./server/eliminar.php"
+        urldelete:"./server/eliminar.php",
+        loginurl:"./server/login.php"
     },
     "inputs":{
         nombreblog:$("#nombre-blog"),
         linkdelblog:$("#link-blog"),
         autorblog:$("#autor-blog"),
-        notasblog:$("#notas-blog")
+        notasblog:$("#notas-blog"),
+        correo:$("#correo"),
+        pass:$("#pass")
     },
     "accesstokens":{
         api:"o.Q7qT79TRM0VLnFYKW0sLsrs5UxPRUo5j",

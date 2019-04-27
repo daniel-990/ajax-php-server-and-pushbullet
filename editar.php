@@ -7,7 +7,7 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="cont-form">
-                    <h3>[ Editar Blogs ] <i class="fas fa-server"></i> | <a href="/" class="btn btn-danger">Inicio</a></h3>
+                    <h3>[ Editar Blogs ] <i class="fas fa-server"></i> | <a href="/php-text/" class="btn btn-danger">Inicio</a></h3>
                     <hr>
                     <form id="form-editar">
                         <div class="form-group row">

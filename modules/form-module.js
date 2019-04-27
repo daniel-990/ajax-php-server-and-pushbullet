@@ -33,7 +33,7 @@ export const form = () => {
                         throw err;
                     } else {
                         console.log(res);
-                        window.location.href = "/";
+                        window.location.href = "/php-text/";
                     }
                 });
 
